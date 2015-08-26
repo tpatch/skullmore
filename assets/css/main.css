@@ -2574,6 +2574,11 @@ body.is-touch .poptrox-popup .closer {
   /* Be Rad */
   #berad {
     padding: 4em 0; }
+    #berad input[type=submit],
+    #berad a.button {
+      width: 80%;
+      display: block;
+      margin: 0 auto 1em; }
 
   /* Footer */
   #footer .menu li {

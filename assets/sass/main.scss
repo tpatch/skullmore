@@ -1378,6 +1378,12 @@
 		/* Be Rad */
 			#berad {
 				padding: 4em 0;
+				input[type=submit],
+				a.button {
+					width: 80%;
+					display: block;
+					margin: 0 auto 1em;
+				}
 			}
 
 		/* Footer */
