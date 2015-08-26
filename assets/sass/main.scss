@@ -391,7 +391,10 @@
 	}
 
 /* Button */
-
+	input[type=submit],
+	input[type=Reset] {
+		-webkit-appearance:none !important;
+	}
 	input[type="button"],
 	input[type="submit"],
 	input[type="reset"],
