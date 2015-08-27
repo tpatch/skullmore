@@ -2214,6 +2214,9 @@ body {
 /* Be Rad */
 #berad {
   padding: 10em 0; }
+  #berad .content.container {
+    width: 90%;
+    max-width: 700px; }
 
 /* Work */
 #work .row.images .image {
