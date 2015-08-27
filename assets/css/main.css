@@ -2182,19 +2182,18 @@ body {
 #intro {
   background: url("../../images/skullmoreimages_skulls.jpg");
   background-size: cover;
-  background-attachment: fixed;
   background-position: bottom center;
   background-repeat: no-repeat; }
   #intro .content.container {
     width: 80%; }
     #intro .content.container img {
-      width: 100%; }
+      max-height: 100%;
+      width: auto; }
 
 /* One */
 #one {
   background: url("images/overlay.png"), url("../../images/skullmoreimages_skulls_purple.jpg");
   background-size: 256px 256px, cover;
-  background-attachment: fixed, fixed;
   background-position: top left, center center; }
   #one .content.container {
     width: 80%; }
@@ -2205,7 +2204,6 @@ body {
 #two {
   background: url("images/overlay.png"), url("../../images/teamleaders-bg.jpg");
   background-size: 256px 256px, cover;
-  background-attachment: fixed, fixed;
   background-position: top left, center center; }
   #two header {
     margin-bottom: 0; }

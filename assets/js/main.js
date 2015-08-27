@@ -79,7 +79,7 @@
 				var on = function() {
 
 					// Generic sections.
-						$('.main.style1')
+						$('.main.style1.disabled')
 							.scrollex({
 								mode:		'middle',
 								delay:		100,
@@ -89,7 +89,7 @@
 								leave:		function() { $(this).addClass('inactive'); }
 							});
 
-						$('.main.style2')
+						$('.main.style2.disabled')
 							.scrollex({
 								mode:		'middle',
 								delay:		100,
