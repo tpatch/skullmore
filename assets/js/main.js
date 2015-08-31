@@ -197,6 +197,13 @@
 			}
 
 		// Events.
+
+			$('a,input').on('click', function(){
+				var label = $(this).attr('href')||$(this).attr('value');
+				console.log(label);
+				ga('send', 'event', 'link', 'click', label);
+			});
+
 			var resizeTimeout, resizeScrollTimeout;
 
 			$window
