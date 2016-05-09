@@ -1431,7 +1431,11 @@ a {
   -webkit-transition: "all 0.2s ease-in-out", "color 0.2s ease-in-out";
   -ms-transition: "all 0.2s ease-in-out", "color 0.2s ease-in-out";
   transition: "all 0.2s ease-in-out", "color 0.2s ease-in-out";
-  color: #81ef9d; }
+  color: #ff7aad; }
+
+a:hover, a:active {
+  color: #fee938;
+}
 
 sub {
   position: relative;
@@ -1642,7 +1646,7 @@ button {
   -webkit-transition: "all 0.2s ease-in-out";
   -ms-transition: "all 0.2s ease-in-out";
   transition: "all 0.2s ease-in-out";
-  background-color: #81ef9d;
+  background-color: #ff7aad;
   border: 0;
   border-radius: .125em;
   color: #fff;
@@ -1691,13 +1695,15 @@ button {
   input[type="reset"]:hover,
   .button:hover,
   button:hover {
-    background-color: #54e97a; }
+    background-color: #fee938; 
+    color: #ff7aad; }
   input[type="button"]:active,
   input[type="submit"]:active,
   input[type="reset"]:active,
   .button:active,
   button:active {
-    background-color: #54e97a; }
+    background-color: #fee938;
+    color: #ff7aad; }
   input[type="button"].style2,
   input[type="submit"].style2,
   input[type="reset"].style2,
@@ -2172,36 +2178,39 @@ body {
       font-size: 0.9em; }
       #nav ul li a {
         display: block;
-        color: #81ef9d;
+        color: #ff7aad;
         text-decoration: none;
         height: 3em;
         line-height: 3em;
         padding: 0 0.5em 0 0.5em;
         outline: 0;
         cursor: pointer; }
+        #nav ul li a:hover {
+          color: #fee938;
+        }
   #nav input[type="submit"] {
     border-radius: 0; }
 
 /* Intro */
 #intro {
-  background: url("../../images/skullmoreimages_skulls.jpg");
+  padding-top: 1.5em;
+  /*background: url("../../images/skullmoreimages_skulls.jpg");
   background-size: cover;
   background-position: bottom center;
-  background-repeat: no-repeat; }
+  background-repeat: no-repeat; */}
   #intro .content.container {
-    width: 80%; }
+    width: 100%; }
     #intro .content.container img {
-      max-height: 100%;
-      max-width: 100%;
-      width: auto; }
+      height: auto;
+      width: 100%; }
 
 /* One */
 #one {
-  background: url("images/overlay.png"), url("../../images/skullmoreimages_skulls_purple.jpg");
+  /*background: url("images/overlay.png"), url("../../images/skullmoreimages_skulls_purple.jpg");
   background-size: 256px 256px, cover;
-  background-position: top left, center center; }
+  background-position: top left, center center; */}
   #one .content.container {
-    width: 80%; }
+    width: 100%; }
     #one .content.container img {
       width: 100%; }
 
@@ -2218,10 +2227,17 @@ body {
 
 /* Be Rad */
 #berad {
-  padding: 10em 0; }
+  padding: 10em 0;
+  background-color: #ffe538; }
   #berad .content.container {
     width: 90%;
     max-width: 700px; }
+    #berad .content.container h2 {
+      width: auto;
+      color: #ff7aad;
+      text-transform: uppercase;
+      font-size: 3em;
+    }
 
 /* Work */
 #work .row.images .image {
